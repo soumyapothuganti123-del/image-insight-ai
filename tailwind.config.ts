@@ -57,6 +57,25 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        "user-message": {
+          DEFAULT: "hsl(var(--user-message-bg))",
+          foreground: "hsl(var(--user-message-fg))",
+        },
+        "assistant-message": {
+          DEFAULT: "hsl(var(--assistant-message-bg))",
+          foreground: "hsl(var(--assistant-message-fg))",
+        },
+      },
+      backgroundImage: {
+        "gradient-primary": "var(--gradient-primary)",
+        "gradient-bg": "var(--gradient-bg)",
+      },
+      boxShadow: {
+        soft: "var(--shadow-soft)",
+        card: "var(--shadow-card)",
+      },
+      transitionProperty: {
+        smooth: "var(--transition-smooth)",
       },
       borderRadius: {
         lg: "var(--radius)",
